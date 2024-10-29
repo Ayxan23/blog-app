@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  align-items: center;
+  /* box-shadow: 0px 0px 8px 5px rgba(119, 119, 119, 0.145); */
+  border-radius: 10px;
+  background: rgb(28, 28, 28);
+}
+
+.cardImage {
+  flex-shrink: 0;
+  position: relative;
+  height: 110px;
+  width: 110px;
+}
+
+.card img {
+  border-radius: 10px 0px 0px 10px;
+  object-fit: cover;
+}
+
+.cardBody {
+  margin-left: 16px;
+}
+
+.cardBody p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  margin-top: 4px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cardBody h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+

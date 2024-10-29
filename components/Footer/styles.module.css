@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h4 {
+    font-size: 16px;
+    font-weight: 400;
+  }
