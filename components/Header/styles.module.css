@@ -1,11 +1,30 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--white);
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 92%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  background-color: var(--black);
+}
+
+.headerWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.header nav {
+  font-size: 18px;
+  font-weight: 500;
+}

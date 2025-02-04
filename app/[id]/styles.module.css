@@ -8,7 +8,7 @@
 .cardImage {
   position: relative;
   width: 100%;
-  height: 500px;
+  aspect-ratio: 16/9;
 }
 
 .cardImage img {
@@ -17,8 +17,15 @@
 }
 
 .title {
-  font-size: 48px;
-  margin-top: 8px;
+  font-size: 42px;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.blogContainer p {
+  color: white;
+  opacity: 0.6;
+  font-size: 22px;
 }
 
 .notFound {
@@ -29,4 +36,31 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .title {
+    margin-top: 8px;
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .blogContainer p {
+    font-size: 18px;
+  }
+  .cardImage img {
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .blogContainer p {
+    color: white;
+    opacity: 0.6;
+    font-size: 16px;
+  }
 }

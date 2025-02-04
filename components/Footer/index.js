@@ -4,7 +4,9 @@ import styles from "./styles.module.css";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <h4>Built with Next.js</h4>
+      <h4>
+        <span>Built with</span> Next.js
+      </h4>
     </footer>
   );
 };

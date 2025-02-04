@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import styles from "@/app/styles.module.css";
 
+import "@/styles/reset.css";
 import "@/styles/global.css";
 
 const inter = Inter({ subsets: ["latin"] });

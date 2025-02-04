@@ -27,12 +27,12 @@ const BlogDetailPage = async ({ params }) => {
     <div className={styles.blogContainer}>
       <div className={styles.cardImage}>
         <Image
-          src={`https://picsum.photos/1080/1920?random=${postId}`}
+          src={`https://picsum.photos/1920/1080?random=${postId}`}
           alt={title}
-          fill
+          fill={true}
         />
       </div>
-      <h1 className={styles.title}>{title}</h1>
+      <h4 className={styles.title}>{title}</h4>
       <p>{body}</p>
     </div>
   );
