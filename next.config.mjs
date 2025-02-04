@@ -8,7 +8,6 @@ const nextConfig = {
           },
         ],
       },
-      basePath: "/blog",
 };
 
 export default nextConfig;
